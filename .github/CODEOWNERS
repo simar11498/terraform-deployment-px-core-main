@@ -1,0 +1,4 @@
+# https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-code-owners
+
+* @CXEPI/px-cloud
+cloud_account.tf @CXEPI/cpx-security-iam-team

@@ -1,0 +1,6 @@
+parameters:
+  fast_pass: false
+  lead_developer:  "jkodasog" 
+  team_manager:  "sdhadwal" 
+  team_name:  "CX Cloud for Customers" 
+  track_name:  "px-core" 

@@ -1,0 +1,17 @@
+version: 2
+registries:
+  terraform-cloud:
+    token: ${{secrets.CXTFC_CXTFCLOUD_TOKEN}}
+    type: terraform-registry
+    url: https://app.terraform.io/cxtfcloud
+updates:
+  - package-ecosystem: terraform
+    directory: "/"
+    registries:
+      - terraform-cloud
+    schedule:
+      interval: weekly
+  - package-ecosystem: gomod
+    directory: "/terratest"
+    schedule:
+      interval: monthly

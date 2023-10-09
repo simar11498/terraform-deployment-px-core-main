@@ -1,0 +1,14 @@
+version: 2.1
+
+orbs:
+  cx-cloud-build: cxepi/cx-cloud-build-orb@9.0.29
+
+setup: true
+
+workflows:
+  create-pipeline:
+    jobs:
+      - cx-cloud-build/create-terraform-module-pipeline:
+          context:
+            - jira-cloud
+            - aws-devops-context
