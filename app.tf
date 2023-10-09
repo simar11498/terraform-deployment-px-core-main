@@ -76,6 +76,7 @@ variable "app_deployments" {
       "cxpp-portal-feedback",
       "cxpp-orders-management"
       "cxpp-lca-ms"
+      "cxpp-admin-config-ms"
     ]
   }
 }
