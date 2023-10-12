@@ -77,6 +77,7 @@ variable "app_deployments" {
       "cxpp-orders-management"
       "cxpp-lca-ms"
       "cxpp-admin-config-ms"
+      "cxpp-admin-config-lambda"
     ]
   }
 }
